@@ -1,0 +1,17 @@
+.box{
+    width: 50%;
+    height: 100px;
+}
+
+.box-1{
+    background: red;
+}
+.box-2{
+    background: blue;
+}
+#test-link{
+    display: inline-block;/* kullanıcı deneyimi açısından sadece yazıya tıklandıpında değil o linkin bulunduğu çerçeve ye de tıklandığında çalışmasını sağlamk.*/
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
