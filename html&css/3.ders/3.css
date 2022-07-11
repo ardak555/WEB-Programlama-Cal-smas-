@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.box1{
+    /*
+    margin-top: 50px;
+    margin-right: 50px; 
+    margin-bottom: 49px;
+    margin-left: 50px;*/
+
+    /*top-bottom right-left*/
+
+   /*margin: 20px 40px 30px 10px;*/
+
+   background: #a7b12a; 
+   width:700px;
+
+   /*margin-left: auto;
+   margin-right: auto;*/
+   margin: 0 auto;
+}
