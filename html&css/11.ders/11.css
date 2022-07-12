@@ -1,0 +1,32 @@
+table,tr,td,th{
+    border: 1px solid saddlebrown;
+    border-collapse: collapse;
+}
+
+table{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+th,
+td{
+    padding: 10px;
+   
+}
+thead tr{
+    background: greenyellow;
+}
+tbody tr{
+    text-align: center;
+}
+
+tbody tr :nth-child(even){
+    background: palevioletred;
+}
+
+tbody tr:hover{
+    background-color: antiquewhite;
+}
+
