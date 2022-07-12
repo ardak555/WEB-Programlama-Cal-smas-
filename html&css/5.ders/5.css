@@ -1,0 +1,30 @@
+h1{
+    background: seagreen;
+}
+.heading1{
+    text-align:center;/*nereye doğru yaslanacağını belirlenir*/
+}
+.heading2{
+    text-align: right;
+}
+.heading3{
+    text-align:left;
+}
+p{
+    letter-spacing: 1px;
+}
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+}
+span{
+    text-decoration:line-through ;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    text-transform: capitalize;
+}
