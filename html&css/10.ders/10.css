@@ -1,0 +1,31 @@
+p{
+    font-size: 1.5em;
+}
+/* p:first-child{
+ background:#aed016 ;   
+}
+p:nth-child(1){
+    color: red;
+}
+p:nth-child(3){
+    color:aquamarine;
+} */
+
+p:nth-child(even){/* çift olanlara*/
+    color: darkgoldenrod;
+}
+p:nth-child(odd){/* tek olanlara*/
+    color:dodgerblue;
+}
+
+ul{
+    font: 1.5em serif;
+    list-style-type: none;
+}
+
+ul li:nth-child(2n+1){
+    color: blueviolet;
+}
+ul li:nth-child(n+3){
+   background-color:blueviolet ;  
+}
