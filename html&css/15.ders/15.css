@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    text-align: center;
+    background-color: aqua;
+    width: 200px;
+    border: 1px solid black;
+    
+}
+/*flex direction row olduğunda yatayda justyfy contenti kullanıyoruz.
+dikeyde align itemsı kullanıyoruz/ flex directioncoulum dediğimizde tam tersi oluyor */
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 600px;
+    background-color: coral;
+}
